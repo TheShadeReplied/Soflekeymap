@@ -26,12 +26,12 @@ char wpm_str[4];
 
 /* KEYBOARD PET START */
 #define IDLE_FRAMES 5
-#define IDLE_SPEED 10 // below this wpm value your animation will idle
+#define IDLE_SPEED 1 // below this wpm value your animation will idle
 
 // #define PREP_FRAMES 1 // uncomment if >1
 
 #define TAP_FRAMES 2
-#define TAP_SPEED 30 // above this wpm value typing animation to triggere
+#define TAP_SPEED 5 // above this wpm value typing animation to triggere
 
 /* settings */
 #define MIN_WALK_SPEED 10
